@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{902ff54c-c08f-4eca-a7aa-a10a5bcf42c7}">
+		<property name="name">
+			<value>Stoned to deaf</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5014b2b5-3820-4e06-a206-45afd05f7dd6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{953bf225-84f0-4a11-b99b-9f539e839f0d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{953bf225-84f0-4a11-b99b-9f539e839f0d}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Rock'n'stone</value>
+			<value>Would</value>
+			<value>Wouldn't</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
