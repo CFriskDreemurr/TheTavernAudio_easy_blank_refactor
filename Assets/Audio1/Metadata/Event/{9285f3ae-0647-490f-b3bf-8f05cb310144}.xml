@@ -53,7 +53,7 @@
 			<destination>{3b6b4660-c163-4917-aa7a-225443ef7d8d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6fd93103-c208-4624-a274-4aec027f9a9e}</destination>
+			<destination>{114bcfa5-76cb-40d1-9210-1f7b2e413fad}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a0da7576-d08c-4cbb-953d-638f0acd21a5}" />
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{62b52ea0-7d72-4c86-8f50-e6ee9a974be8}">
+		<relationship name="modulators">
+			<destination>{e14d5049-aa43-4e79-b43f-5322ab76f012}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{e7efdaf6-91b0-48a1-b909-10e5b4016e61}</destination>
 		</relationship>
@@ -127,9 +130,24 @@
 			<destination>{25cbd60d-a5fb-4ad8-83ef-2f9578b0aa4e}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{e14d5049-aa43-4e79-b43f-5322ab76f012}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>600</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{e7efdaf6-91b0-48a1-b909-10e5b4016e61}">
 		<relationship name="effects">
 			<destination>{a9c87819-b533-4d1c-8829-9178f3de0ee7}</destination>
+			<destination>{9ea9af27-de9b-4034-b57e-5c9a5620a0d0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{01f4b0bc-1ad6-442e-92ae-13eab87e6ad7}" />
@@ -141,5 +159,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{2e74fa9f-f901-4890-a81c-67254653ac67}" />
 	<object class="MixerBusFader" id="{a9c87819-b533-4d1c-8829-9178f3de0ee7}" />
+	<object class="MultibandEqEffect" id="{9ea9af27-de9b-4034-b57e-5c9a5620a0d0}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>7000</value>
+		</property>
+		<property name="qualityA">
+			<value>1.80000007</value>
+		</property>
+		<property name="gainA">
+			<value>-7</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{3fb7547b-6e6c-4294-be98-3240c1bcca45}" />
 </objects>

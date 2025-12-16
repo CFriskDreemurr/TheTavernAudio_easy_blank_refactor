@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{114bcfa5-76cb-40d1-9210-1f7b2e413fad}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
+		<property name="name">
+			<value>Forest</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{daf8959d-9fc0-4f3f-8f75-ad0055f83b06}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{5a1c3e0b-5b33-4d59-90cb-dfdc074c5a0c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f38dffe0-f07d-460d-b812-e0b19ab1fc57}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{daf8959d-9fc0-4f3f-8f75-ad0055f83b06}">
+		<relationship name="effects">
+			<destination>{80cbda37-bed9-4b05-8447-8c3437d9e8d4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{5a1c3e0b-5b33-4d59-90cb-dfdc074c5a0c}" />
+	<object class="MixerBusFader" id="{80cbda37-bed9-4b05-8447-8c3437d9e8d4}" />
+</objects>

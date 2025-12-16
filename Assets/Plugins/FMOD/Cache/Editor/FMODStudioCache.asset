@@ -71,10 +71,10 @@ MonoBehaviour:
   Path: Assets/Audio1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638996941252379577
+  lastModified: 639015098664884838
   FileSizes:
   - Name: Desktop
-    Value: 6923008
+    Value: 6928576
   Exists: 1
 --- !u!114 &-7100203256250936584
 MonoBehaviour:
@@ -103,7 +103,7 @@ MonoBehaviour:
   - {fileID: -6285529786192860031}
   MinDistance: 1
   MaxDistance: 20
-  Length: 676
+  Length: 1326
 --- !u!114 &-6285529786192860031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,12 +259,12 @@ MonoBehaviour:
   Banks:
   - {fileID: -7628886131930294157}
   IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
+  Is3D: 1
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
-  Length: 207609
+  MaxDistance: 15
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,13 +289,15 @@ MonoBehaviour:
   - {fileID: -1113741209200374110}
   - {fileID: 7564501288381733400}
   - {fileID: -359891782920744841}
+  - {fileID: 5977392686910170587}
+  - {fileID: 2388047575498577044}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7628886131930294157}
   StringsBanks:
   - {fileID: 1796101837171548479}
   cacheVersion: 131856
-  cacheTime: 638996941252389562
+  cacheTime: 639015098664899274
   SerializableEventsDict:
   - key: event:/Tavern/sfx_tavern_fireplace
     index: 0
@@ -313,6 +315,10 @@ MonoBehaviour:
     index: 6
   - key: event:/Ambience/ambient_tavern
     index: 7
+  - key: snapshot:/Outside
+    index: 8
+  - key: snapshot:/Room
+    index: 9
 --- !u!114 &1297038140013742310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,11 +362,65 @@ MonoBehaviour:
   Path: Assets/Audio1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638996941252389562
+  lastModified: 639015098664899274
   FileSizes:
   - Name: Desktop
-    Value: 1286
+    Value: 1792
   Exists: 1
+--- !u!114 &2388047575498577044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Room
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Room
+  Guid:
+    Data1: 1741493514
+    Data2: 1262188181
+    Data3: -552546944
+    Data4: 1365535090
+  Banks:
+  - {fileID: -7628886131930294157}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5977392686910170587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 1965008719
+    Data2: 1220485445
+    Data3: -898378602
+    Data4: 370579558
+  Banks:
+  - {fileID: -7628886131930294157}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &6189771478604375973
 MonoBehaviour:
   m_ObjectHideFlags: 0

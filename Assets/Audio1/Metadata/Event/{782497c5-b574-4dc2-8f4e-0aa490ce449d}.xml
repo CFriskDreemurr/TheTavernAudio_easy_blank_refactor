@@ -57,7 +57,7 @@
 			<destination>{19d143f5-1292-420b-99f5-ffe1a272c4ec}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{6fd93103-c208-4624-a274-4aec027f9a9e}</destination>
+			<destination>{d07d4af7-b843-4062-89d9-9581b130fa71}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{5277ad5c-000f-46b4-8040-64205c28dbe5}" />
@@ -209,6 +209,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{46db3102-b3c9-42e0-ae59-10f2e8fe2add}">
 		<relationship name="effects">
+			<destination>{ead51d98-29a3-4f94-afef-8afcc0f16740}</destination>
 			<destination>{de32021f-8792-48e3-8488-a51527dad76e}</destination>
 		</relationship>
 	</object>
@@ -334,6 +335,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dcbfb670-20db-40ba-aafb-2add71d16ade}" />
+	<object class="CompressorEffect" id="{ead51d98-29a3-4f94-afef-8afcc0f16740}">
+		<property name="threshold">
+			<value>-20</value>
+		</property>
+		<property name="attackTime">
+			<value>0.75</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{de32021f-8792-48e3-8488-a51527dad76e}" />
 	<object class="AutomationPoint" id="{74ceaf4d-9c76-4d7b-9c9b-f244f9fb69be}">
 		<property name="position">
