@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>Forest</value>
 		</property>
+		<relationship name="masters">
+			<destination>{71d96fcf-a435-47b4-bf76-652b1de4ffb0}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{daf8959d-9fc0-4f3f-8f75-ad0055f83b06}</destination>
 		</relationship>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{de1bca42-5563-42ff-906a-393a2b732a39}">
+		<property name="assetPath">
+			<value>barrel/Barrel_4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.6800000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e7210920-d082-4a8c-ad01-5a1d33df686b}</destination>
+		</relationship>
+	</object>
+</objects>

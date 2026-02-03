@@ -71,10 +71,10 @@ MonoBehaviour:
   Path: Assets/Audio1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639015098664884838
+  lastModified: 639057402959176597
   FileSizes:
   - Name: Desktop
-    Value: 6928576
+    Value: 6929120
   Exists: 1
 --- !u!114 &-7100203256250936584
 MonoBehaviour:
@@ -297,7 +297,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1796101837171548479}
   cacheVersion: 131856
-  cacheTime: 639015098664899274
+  cacheTime: 639057402959201905
   SerializableEventsDict:
   - key: event:/Tavern/sfx_tavern_fireplace
     index: 0
@@ -362,10 +362,10 @@ MonoBehaviour:
   Path: Assets/Audio1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639015098664899274
+  lastModified: 639057402959201905
   FileSizes:
   - Name: Desktop
-    Value: 1792
+    Value: 1994
   Exists: 1
 --- !u!114 &2388047575498577044
 MonoBehaviour:

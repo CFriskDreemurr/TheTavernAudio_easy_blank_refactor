@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{b34e9ce7-9c07-4e30-9ae3-17791f3ff4bc}">
+		<property name="assetPath">
+			<value>KNIFE/Knife_2.wav.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e7210920-d082-4a8c-ad01-5a1d33df686b}</destination>
+		</relationship>
+	</object>
+</objects>
