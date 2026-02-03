@@ -56,6 +56,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 8
   Length: 80000
+--- !u!114 &-7829811384208399297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Health
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Health
+  Guid:
+    Data1: -165860928
+    Data2: 1308528189
+    Data3: 1849503364
+    Data4: 654763589
+  Banks:
+  - {fileID: -7628886131930294157}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-7628886131930294157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,10 +98,10 @@ MonoBehaviour:
   Path: Assets/Audio1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639057421519668397
+  lastModified: 639057430845957950
   FileSizes:
   - Name: Desktop
-    Value: 7251424
+    Value: 7301184
   Exists: 1
 --- !u!114 &-7100203256250936584
 MonoBehaviour:
@@ -292,6 +319,33 @@ MonoBehaviour:
   - Would
   - Wouldn't
   Exists: 1
+--- !u!114 &-1237804466377068397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_heartbeat
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_heartbeat
+  Guid:
+    Data1: 1461586094
+    Data2: 1261841893
+    Data3: -1116980306
+    Data4: 128185791
+  Banks:
+  - {fileID: -7628886131930294157}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6730
 --- !u!114 &-1113741209200374110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,13 +486,15 @@ MonoBehaviour:
   - {fileID: -1094770385551908351}
   - {fileID: 6517273862032141586}
   - {fileID: -3117009478955262921}
+  - {fileID: -7829811384208399297}
+  - {fileID: -1237804466377068397}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7628886131930294157}
   StringsBanks:
   - {fileID: 1796101837171548479}
   cacheVersion: 131856
-  cacheTime: 639057421519683419
+  cacheTime: 639057430845977964
   SerializableEventsDict:
   - key: event:/Tavern/sfx_tavern_fireplace
     index: 0
@@ -472,6 +528,10 @@ MonoBehaviour:
     index: 14
   - key: event:/Tavern/sfx_bottles
     index: 15
+  - key: snapshot:/Health
+    index: 16
+  - key: event:/sfx_heartbeat
+    index: 17
 --- !u!114 &1297038140013742310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,10 +575,10 @@ MonoBehaviour:
   Path: Assets/Audio1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639057421519683419
+  lastModified: 639057430845977964
   FileSizes:
   - Name: Desktop
-    Value: 2262
+    Value: 2394
   Exists: 1
 --- !u!114 &2388047575498577044
 MonoBehaviour:
